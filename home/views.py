@@ -22,7 +22,7 @@ def contato(request):
     return HttpResponse("""
         <h1>Página de Contato</h1>
         <p>Fale conosco!
-        Se desejar saber mais entre em contato vi e-mail: djorkaeffoliveira7@gmail.com</p>
+        Se desejar saber mais entre em contato via e-mail: djorkaeffoliveira7@gmail.com</p>
 
         <a href='/'><button>Voltar para Home</button></a>
     """)
