@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pweb.asgi.application'
+WSGI_APPLICATION = 'pweb.wsgi.application'
 
 
 # Database
