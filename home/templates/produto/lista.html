@@ -3,6 +3,12 @@
 {% block home %} Listagem de produtos {% endblock %}
 
 {% block conteudo %} 
+
+<button onclick="location.href='{% url 'form_produto' %}'" class="btn btn-primary mb-4" type="button">
+    Novo Produto
+</button>
+
+
 <table class="table table-bordered table-hover">
     <thead class="thead-dark">
         <tr>

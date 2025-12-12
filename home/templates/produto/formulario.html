@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Contato{% endblock title %}
+
+{% block home %} Formulario de produtos {% endblock %}
+
+{% block conteudo %} <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }} <!-- Renderiza cada campo do formulário com <p> tags -->
+        <button class="btn btn-primary" type="submit" >Salvar</button>
+    </form>
+
+{% endblock %}
+
+{% block titulo_pagina %}Titulo da pagina{% endblock titulo_pagina %}
